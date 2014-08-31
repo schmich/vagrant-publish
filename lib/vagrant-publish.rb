@@ -1,0 +1,5 @@
+require 'vagrant-publish/settings'
+require 'vagrant-publish/dropbox_store'
+require 'vagrant-publish/vagrant'
+require 'vagrant-publish/publish'
+require 'vagrant-publish/version'

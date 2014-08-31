@@ -1,2 +1,4 @@
 settings.json
+
+# Gems should not include Gemfile.lock.
 Gemfile.lock

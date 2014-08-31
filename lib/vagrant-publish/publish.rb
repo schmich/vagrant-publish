@@ -21,7 +21,7 @@ def prompt_vm
     print 'Image: '
     index = gets.to_i
 
-    if index <= 0 || index >= vms.length
+    if index <= 0 || index > vms.length
       puts 'Not a valid option.'
       raise
     end
@@ -42,7 +42,7 @@ def prompt_box(user)
     print 'Vagrant Cloud box: '
     index = gets.to_i
 
-    if index <= 0 || index >= box_names.length
+    if index <= 0 || index > box_names.length
       puts 'Not a valid option.'
       raise
     end
